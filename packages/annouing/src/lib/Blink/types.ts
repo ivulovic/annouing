@@ -1,7 +1,7 @@
 import { PropsWithChildren } from "react";
 
-export interface ButtonAttributes {
+export interface BlinkAttributes {
     className?: string;
 };
 
-export type ButtonProps = PropsWithChildren<ButtonAttributes>;
+export type BlinkProps = PropsWithChildren<BlinkAttributes>;
