@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import logo from './logo.svg';
-import { MyButton } from 'my-lib';
+import { Gradient } from '@ivnv/annouing';
+import '@ivnv/annouing/dist/style.css';
 import './App.css';
 
 function App() {
@@ -13,7 +14,10 @@ function App() {
                 <p>Hello Vite + React!</p>
                 <p>count is: {count}</p>
                 <p>
-                    <MyButton onClick={() => setCount((count) => count + 1)}>Click here!</MyButton>
+                    <Gradient>
+                        Hello
+                    </Gradient>
+                    {/* <MyButton onClick={() => setCount((count) => count + 1)}>Click here!</MyButton> */}
                 </p>
                 <p>
                     Edit <code>App.tsx</code> and save to test HMR updates.
